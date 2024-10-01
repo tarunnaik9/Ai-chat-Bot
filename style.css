@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0e6ae3;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.chat-icon:hover {
+    background-color: #0e6ae3;
+}
+
+
+.chat-container {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    display: none; /* Initially hidden */
+    z-index: 100;
+}
+h3{
+   text-align: center;
+   bottom: 3px;
+   background-color:#f1f1f1;
+   border-radius: 70%;
+
+}
+
+#chatbox {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+#chat-output {
+    padding: 10px;
+}
+
+/* User message styling (on the right) */
+
+.user {
+    text-align: right;
+    background-color: #66e56e;
+    color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px ;  /* Added margin to separate user and bot messages */
+    display: block;   /* Ensure each message takes full width */
+    max-width: fit-content;
+     block-size: auto;
+    align-self: flex-end;  /* Make sure user message aligns to the right */
+}
+.bot {
+
+    text-align: left;
+    background-color: #e0f7ff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;  /* Added margin to separate user and bot messages */
+    display: block;   /* Ensure each message takes full width */
+    max-width: 70%;
+    align-self: flex-start;  /* Ensure bot message aligns to the left */
+}
+
+
+
+#user-input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.option {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e0f7ff;
+    border-radius: 5px;
+    border: 1px solid #007BFF;
+    cursor: pointer;
+    display: block;  /* Ensure each option is on a new line */
+}
+
+
+.option:hover {
+    background-color: #b3e5fc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/*-------------------*/
+
+
+.search-container {
+    position: absolute;
+    top: 8%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
+#search-bar {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button1 {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button1:hover {
+    background-color: #45a049;
+}

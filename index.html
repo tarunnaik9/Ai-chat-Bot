@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Chat Icon at the bottom-right -->
+    <div class="chat-icon" onclick="toggleChat()">
+        <i class="fa-solid fa-comment"></i>
+    </div>
+
+    <!-- Chat container (hidden initially) -->
+    <div class="chat-container" id="chatbox-container">
+        <h3>Addition and Remodels Service Page</h3>
+    
+        <div id="chatbox">
+            <div id="chat-output"></div>
+        </div>
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+  <div class="search-container">
+        Category Id:
+        <input type="text" id="search-bar" placeholder="Search...">
+        <button1 onclick="search()">Search</button1>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
