@@ -10,3 +10,10 @@ Key Features
 
 # Image
  ![Uploading Screenshot 2024-10-01 192913.png…]()
+
+# key features
+ 1 Interactive Chat Interface: Users can interact with the bot through a conversational interface to inquire about various remodeling options.Search by Category ID: Users can search for specific remodeling services (like basement or garage remodeling) by entering a category ID in the search bar.
+ 2 Real-time Responses: JavaScript enables real-time responses, providing users with details about selected services and categories.
+ 3 Visual Organization: Categories like Basement Remodeling, Garage Remodeling, etc., are visually listed, making it easy for users to navigate.
+ 4 Customizable Design: The chatbot’s design can be adjusted to fit different themes, and it includes light-colored, rounded elements for a modern feel.
+
